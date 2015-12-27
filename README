@@ -1,0 +1,48 @@
+
+                 .______   .__   __.  __    __  .___  ___. 
+                 |   _  \  |  \ |  | |  |  |  | |   \/   | 
+                 |  |_)  | |   \|  | |  |  |  | |  \  /  | 
+                 |   ___/  |  . `  | |  |  |  | |  |\/|  | 
+                 |  |      |  |\   | |  `--'  | |  |  |  | 
+                 | _|      |__| \__|  \______/  |__|  |__| 
+                                               
+
+
+----
+pnum:
+----
+
+
+introduction :
+
+    Pnum is a prime numbers generator and tester to test and generate for very wide range of numbers . 
+This code is tested in rang from 0 to 9999999 under Linux OS and works fine.
+
+
+Compile or Build & Run :
+
+    To compile or Build and run pnum you have 2 ways 
+	1- compile the source files
+		a- cd src/
+		b- gcc main.c menu.c input_lim.c clear_arr.c pnum.c free_arr.c -lm -o pnum
+		c- ./pnum ---> to run the application. 
+	2- Build pnum via make file 
+		a- cd /Debug
+		b- make pnum
+		c- ./pnum ---> to run the application.
+
+Copyright :
+
+    pnum is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    pnum is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with pnum.  If not, see <http://www.gnu.org/licenses/>.
+
